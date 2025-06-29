@@ -36,10 +36,11 @@ export default function Hero() {
               Let’s Talk
             </Link>
             <Link
-              href="#projects"
+              target="_blank"
+              href={info.links.resume || "#"}
               className="inline-block px-6 py-3 mt-4 text-black bg-amber-400 hover:bg-amber-500 rounded-xl font-semibold transition"
             >
-              See My Work
+              My Resume
             </Link>
           </div>
         </div>
