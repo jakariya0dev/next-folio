@@ -1,16 +1,17 @@
 "use client";
 
-import testimonials from "@/data/testimonials.json";
+import reviews from "@/data/reviews.json";
+import UnderlinedText from "./UnderlindText";
 
 export default function Testimonial() {
   return (
-    <section className="py-20 bg-gray-900 text-white">
-      <h2 className="text-4xl font-bold text-center mb-8">
-        What Clients <span className="underline underline-offset-8 decoration-amber-400">Say</span>
+    <section className="py-20 bg-gray-900 text-white" id="testimonials">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">
+        What Clients <UnderlinedText text="Say" />
       </h2>
       <div className="overflow-hidden relative group">
         <div className="flex gap-6 animate-scroll hover:pause-scroll">
-          {testimonials.map((t, index) => (
+          {reviews.map((t, index) => (
             <div
               key={index}
               className="min-w-[320px] bg-gray-800 p-6 rounded-xl shadow-md hover:scale-[1.03] transition"

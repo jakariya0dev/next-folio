@@ -1,0 +1,41 @@
+[
+  {
+    "company": "JCloud Tech",
+    "role": "Full-Stack Developer",
+    "duration": "Jan 2025 – Present",
+    "responsibilities": [
+      "Built and maintained scalable web apps using React, Node.js, and MongoDB",
+      "Developed custom ERP and POS systems for small businesses",
+      "Integrated REST APIs and third-party services like Firebase and Stripe"
+    ]
+  },
+  {
+    "company": "Riseup Labs",
+    "role": "Trainer (Web Developement)",
+    "duration": "Oct 2023 – Dec 2024",
+    "responsibilities": [
+      "Taught web development fundamentals to students",
+      "Taught HTML, CSS, and JavaScript and PHP",
+      "Taught version control using Git and GitHub"
+    ]
+  },
+  {
+    "company": "Freelance",
+    "role": "Web Developer",
+    "duration": "Jul 2022 – present",
+    "responsibilities": [
+      "Worked on 30+ freelance projects from international clients",
+      "Delivered full-stack solutions using MERN, Laravel, and Flutter",
+      "Focused on performance optimization and responsive UI/UX design"
+    ]
+  },
+  {
+    "company": "Open Source",
+    "role": "Contributor",
+    "duration": "2022 – Present",
+    "responsibilities": [
+      "Contributed to open-source tools and libraries on GitHub",
+      "Helped fix bugs, write documentation, and improve developer experience"
+    ]
+  }
+]
