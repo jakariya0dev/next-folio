@@ -1,12 +1,12 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Testimonial from "./components/Testimonial";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Experience from "./sections/Experience";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import Testimonial from "./sections/Testimonial";
 
 export default function Home() {
   return (

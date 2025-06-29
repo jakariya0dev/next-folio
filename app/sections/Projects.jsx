@@ -1,19 +1,19 @@
 import projectsData from "@/data/projects.json";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import UnderlinedText from "./UnderlindText";
+import UnderlinedText from "../components/UnderlindText";
 
 export default function Projects() {
   return (
-    <section className="bg-gray-900 py-20" id="projects">
+    <section className="bg-gray-900 py-20 px-5 md:px-0" id="projects">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8 md:mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-16">
           My <UnderlinedText text="Projects" />
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projectsData.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 shadow-md rounded-lg overflow-hidden"
+              className="bg-gray-800 shadow-md rounded-lg overflow-hidden hover:scale-105 transition-all"
             >
               <img
                 src={project.image}

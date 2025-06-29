@@ -1,7 +1,7 @@
 "use client";
 
 import reviews from "@/data/reviews.json";
-import UnderlinedText from "./UnderlindText";
+import UnderlinedText from "../components/UnderlindText";
 
 export default function Testimonial() {
   return (
