@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HobbyHub",
+    "description": "A local hobby group organizer with member management and event scheduling.",
+    "image": "https://source.unsplash.com/400x250/?hobby,group",
+    "tech": ["React", "Node.js", "MongoDB"],
+    "live": "https://hobbyhub.example.com",
+    "github": "https://github.com/yourname/hobbyhub"
+  },
+  {
+    "title": "Hotel Booking App",
+    "description": "A dynamic hotel booking system with real-time availability and user reviews.",
+    "image": "https://source.unsplash.com/400x250/?hotel,booking",
+    "tech": ["React", "MongoDB", "Firebase"],
+    "live": "https://hotel-booking.example.com",
+    "github": "https://github.com/yourname/hotel-booking"
+  },
+  {
+    "title": "POS System",
+    "description": "An inventory and invoice management system for small shopkeepers with Bluetooth printer integration.",
+    "image": "https://source.unsplash.com/400x250/?pos,shop",
+    "tech": ["Flutter", "Laravel", "MySQL"],
+    "live": "https://pos-system.example.com",
+    "github": "https://github.com/yourname/pos-system"
+  }
+]

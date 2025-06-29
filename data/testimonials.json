@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Doe",
+    "designation": "Product Manager",
+    "company": "TechWave Inc",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "review": "Jakariya delivered a high-quality product ahead of schedule. His attention to detail and technical skills are top-notch."
+  },
+  {
+    "name": "Sarah Lee",
+    "designation": "Marketing Lead",
+    "company": "BrightHive",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "review": "The landing page Jakariya built for our campaign was stunning and effective. We saw a 40% increase in conversion."
+  },
+  {
+    "name": "Alex Carter",
+    "designation": "CTO",
+    "company": "CodeSpark",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "review": "Reliable, skilled, and communicative—Jakariya is a full-stack developer you can trust with critical projects."
+  },
+  {
+    "name": "Emma Watson",
+    "designation": "Design Lead",
+    "company": "PixelHouse",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "review": "Working with Jakariya was seamless. He translated our Figma designs into pixel-perfect, responsive interfaces."
+  },
+  {
+    "name": "David Kim",
+    "designation": "CEO",
+    "company": "InnovaTech",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "review": "Jakariya played a crucial role in launching our MVP. His backend architecture scaled smoothly with our growing user base."
+  },
+  {
+    "name": "Olivia Green",
+    "designation": "Developer Advocate",
+    "company": "DevStack",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "review": "He’s a solid engineer with excellent communication skills. Jakariya always delivers clean code with proper documentation."
+  },
+  {
+    "name": "Liam Smith",
+    "designation": "Software Engineer",
+    "company": "NextGenSoft",
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "review": "We collaborated on a complex API integration and Jakariya nailed it. Great problem-solver and team player."
+  },
+  {
+    "name": "Ava Johnson",
+    "designation": "HR Manager",
+    "company": "HumanLoop",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "review": "Our company portal was rebuilt by Jakariya, and the difference is like night and day. So much faster and user-friendly now."
+  },
+  {
+    "name": "Noah White",
+    "designation": "Project Manager",
+    "company": "PlanSmart",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "review": "Dependable and detail-oriented, Jakariya consistently delivered tasks on time and exceeded expectations."
+  },
+  {
+    "name": "Mia Brown",
+    "designation": "QA Engineer",
+    "company": "BugSmasher",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "review": "The codebase Jakariya handed off was easy to test and maintain. Best dev experience I’ve had in years!"
+  }
+]
