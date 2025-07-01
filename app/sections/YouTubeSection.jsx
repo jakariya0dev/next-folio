@@ -25,7 +25,7 @@ export default function YouTubeSection() {
             href="https://www.youtube.com/@cunningmentor"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-400 underline underline-offset-10 decoration-4 hover:text-blue-500"
+            className="text-amber-400 underline underline-offset-10 decoration-4 hover:text-blue-500 transition-all"
           >
             Cunning Mentor
           </a>
