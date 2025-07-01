@@ -1,8 +1,7 @@
-
+"use client";
 import skillsData from "@/data/skills-data";
 import AnimatedOnScroll from "../components/AnimatedOnScroll";
 import UnderlinedText from "../components/UnderlindText";
-import { motion } from 'framer-motion';
 
 export default function Skills() {
   return (
@@ -15,7 +14,6 @@ export default function Skills() {
           <div className="grid grid-cols-3 md:grid-cols-8 gap-4 ">
             {skillsData.map((skill, i) => (
               <div
-              
                 key={skill.name}
                 className="p-4 rounded shadow text-center flex flex-col items-center bg-gray-900 hover:scale-105 transition-all"
                 title={skill.description}
