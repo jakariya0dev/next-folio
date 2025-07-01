@@ -11,7 +11,7 @@
     "title": "Hotel Booking App",
     "description": "A dynamic hotel booking system with real-time availability and user reviews.",
     "image": "https://i.ibb.co/5X1mBw7n/sunsetbay-website.webp",
-    "tech": ["React", "MongoDB", "Firebase"],
+    "tech": ["React", "Node.js", "MongoDB", "Firebase"],
     "live": "https://sunsetbay-hotel.netlify.app/",
     "github": "https://github.com/jakariya0dev/hotel-booking-client"
   },
@@ -19,7 +19,7 @@
     "title": "POS System",
     "description": "An inventory and invoice management system for small shopkeepers with Bluetooth printer integration.",
     "image": "https://i.ibb.co/SXRGBJ3d/mobile-pos.webp",
-    "tech": ["Flutter", "Laravel", "MySQL"],
+    "tech": ["Flutter", "Firebase"],
     "live": "https://youtu.be/pTmSQlxBnp4?si=ulLLLGxNxHQttaJ2",
     "github": "https://github.com/jakariya0dev/cafe21"
   }

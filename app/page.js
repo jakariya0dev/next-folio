@@ -8,6 +8,7 @@ import Navbar from "./sections/Navbar";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Testimonial from "./sections/Testimonial";
+import YouTubeSection from "./sections/YouTubeSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <YouTubeSection />
       <Skills />
       <Projects />
       <Experience />
