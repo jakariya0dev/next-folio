@@ -17,7 +17,9 @@ export default function Hero() {
         />
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Hi, I'm <span className="text-amber-400">{info.name}</span> 👋
+            Hi, I'm <span className="text-amber-400">{info.name}</span>
+            {/* shake the hand emoji */}
+            <span className="wave"> 👋</span>
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold text-gray-300">
             {info.title}
@@ -25,7 +27,7 @@ export default function Hero() {
           <p className="text-gray-400 text-base md:text-lg">
             {info.description}
           </p>
-          <p className="text-blue-300">
+          <p className="text-blue-200 text-xl md:text-lg font-semibold">
             Available for Freelance Projects | Remote Work
           </p>
           <div className="flex gap-4">
@@ -37,10 +39,10 @@ export default function Hero() {
             </Link>
             <Link
               target="_blank"
-              href={info.links.resume || "#"}
+              href={info.links.fiverrGig || "#"}
               className="inline-block px-6 py-3 mt-4 text-black bg-amber-400 hover:bg-amber-500 rounded-xl font-semibold transition"
             >
-              My Resume
+              Hire Me
             </Link>
           </div>
         </div>
