@@ -1,23 +1,23 @@
 [
   {
-    "title": "HobbyHub",
-    "description": "A local hobby group organizer with member management and event scheduling.",
-    "image": "https://i.ibb.co/8gsXBcm6/hobby-hub-web.webp",
-    "tech": ["React", "Node.js", "MongoDB"],
-    "live": "https://hobbyhub.example.com",
-    "github": "https://hobby-hub-papaya.web.app/"
+    "title": "Mentora - LMS Platform",
+    "description": "A MERN stack learning management system with role-based dashboards for admin, teacher, and student. Features include class management, assignments, JWT auth, Stripe payments, Firebase login, and responsive UI built with React & Tailwind CSS.",
+    "image": "https://i.ibb.co.com/tPNZ10mQ/mentora.webp",
+    "tech": ["React", "Express", "Node.js", "MongoDB"],
+    "live": "https://mentora-lms.netlify.app/",
+    "github": "https://github.com/jakariya0dev/mentora-lms"
   },
   {
     "title": "Hotel Booking App",
-    "description": "A dynamic hotel booking system with real-time availability and user reviews.",
+    "description": "A MERN stack hotel booking platform with real-time room availability, booking management, and user reviews. Includes role-based dashboards for customers and admins, responsive design with React & Tailwind CSS, and Firebase authentication.",
     "image": "https://i.ibb.co/5X1mBw7n/sunsetbay-website.webp",
     "tech": ["React", "Node.js", "MongoDB", "Firebase"],
     "live": "https://sunsetbay-hotel.netlify.app/",
     "github": "https://github.com/jakariya0dev/hotel-booking-client"
   },
   {
-    "title": "POS System",
-    "description": "An inventory and invoice management system for small shopkeepers with Bluetooth printer integration.",
+    "title": "Mobile POS App",
+    "description": "A cross-platform POS and inventory management app for small businesses with Bluetooth printer integration. Features include sales tracking, product management, invoice generation, and Firebase backend, built with Flutter for a smooth and responsive user experience.",
     "image": "https://i.ibb.co/SXRGBJ3d/mobile-pos.webp",
     "tech": ["Flutter", "Firebase"],
     "live": "https://youtu.be/pTmSQlxBnp4?si=ulLLLGxNxHQttaJ2",

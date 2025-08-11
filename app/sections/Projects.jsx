@@ -22,10 +22,8 @@ export default function Projects() {
               />
               <div className="p-8">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-sm text-base-400 mb-3">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <p className="text-gray-400 text-base-400 mb-3">{project.description}</p>
+                <div className="flex flex-wrap gap-2 mb-5">
                   {project.tech.map((techItem, i) => (
                     <span
                       key={i}
@@ -40,17 +38,17 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg"
+                    className="text-gray-200 btn btn-outline btn-primary"
                   >
-                    <FaGithub />
+                    <FaGithub /> View Code
                   </a>
                   <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg"
+                    className="text-gray-200 btn btn-outline btn-secondary"
                   >
-                    <FaExternalLinkAlt />
+                    <FaExternalLinkAlt /> Live Demo
                   </a>
                 </div>
               </div>

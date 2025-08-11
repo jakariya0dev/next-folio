@@ -2,13 +2,13 @@
 import { motion } from "framer-motion";
 
 const youtubeVideos = [
-    "https://www.youtube.com/embed/N0FVfJMX0BE",
-    "https://www.youtube.com/embed/N0FVfJMX0BE",
-    "https://www.youtube.com/embed/Fn4dMNJsaHM",
-    "https://www.youtube.com/embed/Fn4dMNJsaHM",
-    "https://www.youtube.com/embed/RrYMfz05apw",
-    "https://www.youtube.com/embed/-0rQQvpAtw4",
-  ];
+  "https://www.youtube.com/embed/N0FVfJMX0BE",
+  "https://www.youtube.com/embed/N0FVfJMX0BE",
+  "https://www.youtube.com/embed/Fn4dMNJsaHM",
+  "https://www.youtube.com/embed/Fn4dMNJsaHM",
+  "https://www.youtube.com/embed/RrYMfz05apw",
+  "https://www.youtube.com/embed/-0rQQvpAtw4",
+];
 
 export default function YouTubeSection() {
   return (
@@ -58,6 +58,19 @@ export default function YouTubeSection() {
               ></iframe>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <motion.a
+            initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            target="_blank"
+            className="text-center btn btn-primary px-6 py-3 rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-all"
+            href="https://www.youtube.com/@cunningmentor"
+          >
+            More videos
+          </motion.a>
         </div>
       </div>
     </section>
