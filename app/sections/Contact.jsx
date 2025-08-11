@@ -13,6 +13,23 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Validate form inputs
+    const name = form.current.name.value.trim();
+    const email = form.current.email.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (name === "" || email === "" || message === "") {
+      Swal.fire({
+        position: "center",
+        icon: "warning",
+        title: "Please fill in all the fields",
+        showConfirmButton: false,
+        timer: 3000,
+      });
+      return;
+    }
+
     setLoading(true);
 
     emailjs
@@ -114,18 +131,21 @@ export default function Contact() {
         <form className="md:w-1/2  space-y-5" ref={form} onSubmit={sendEmail}>
           <h3 className="text-2xl font-semibold">Send a Message</h3>
           <input
+            required
             type="text"
             name="name"
             placeholder="Your Name"
             className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
           <input
+            required
             type="email"
             name="email"
             placeholder="Your Email"
             className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
           <textarea
+            required
             name="message"
             placeholder="Your Message"
             rows="5"
