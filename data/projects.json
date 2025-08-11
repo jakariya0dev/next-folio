@@ -20,7 +20,7 @@
     "description": "A cross-platform POS and inventory management app for small businesses with Bluetooth printer integration. Features include sales tracking, product management, invoice generation, and Firebase backend, built with Flutter for a smooth and responsive user experience.",
     "image": "https://i.ibb.co/SXRGBJ3d/mobile-pos.webp",
     "tech": ["Flutter", "Firebase"],
-    "live": "https://youtu.be/pTmSQlxBnp4?si=ulLLLGxNxHQttaJ2",
+    "live": "https://codecanyon.net/item/cafe21-online-restaurant-management-mobile-app-with-firebase-and-bluetooth-pos-printer/42275817",
     "github": "https://github.com/jakariya0dev/cafe21"
   }
 ]

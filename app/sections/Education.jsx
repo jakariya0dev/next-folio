@@ -13,15 +13,15 @@ export default function Education() {
           {educationData.map((edu, index) => (
             <motion.div
               key={index}
-              className="border border-gray-700 p-4 rounded bg-gray-800 shadow-2xl transition-all hover:-translate-y-2"
+              className="border border-gray-700 p-4 space-y-1 rounded bg-gray-800 shadow-2xl transition-all hover:-translate-y-2"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
-              <h3 className="text-xl font-semibold">{edu.degree}</h3>
-              <p className="text-gray-600">{edu.institution}</p>
-              <p className="text-sm text-gray-500">
+              <h3 className="text-gray-200 text-xl font-semibold">{edu.degree}</h3>
+              <p className="text-gray-400">{edu.institution}</p>
+              <p className="text-sm text-gray-200">
                 {edu.year} | {edu.location}
               </p>
             </motion.div>
