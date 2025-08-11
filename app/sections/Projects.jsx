@@ -22,7 +22,7 @@ export default function Projects() {
               />
               <div className="p-8">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-400 text-base-400 mb-3">{project.description}</p>
+                <p className="text-gray-400 text-base-400 mb-3 text-justify">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-5">
                   {project.tech.map((techItem, i) => (
                     <span
