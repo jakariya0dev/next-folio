@@ -83,7 +83,7 @@ export default function Contact() {
           </div>
           <div>
             <p className="font-semibold">📧 Email:</p>
-            <p className="text-gray-400">{info.email} or jhalhadi@gmail.com</p>
+            <p className="text-gray-400">{info.email}</p>
           </div>
           <div>
             <p className="font-semibold">📞 WhatsApp:</p>
