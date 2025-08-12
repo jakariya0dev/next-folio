@@ -44,12 +44,22 @@ export default function Navbar() {
               {links}
             </ul>
           </div>
-          <Link href="/" className="text-amber-300 text-xl ">
+          <Link href="/" className="text-amber-300 text-xl font-semibold">
             {info.name}
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
+        </div>
+
+        <div className="navbar-end">
+          <Link
+            target="_blank"
+            href={info.links.fiverrGig || "#"}
+            className="inline-block px-6 py-2 text-black bg-amber-400 hover:bg-amber-500 rounded-xl font-semibold transition"
+          >
+            Hire Me
+          </Link>
         </div>
       </div>
     </nav>

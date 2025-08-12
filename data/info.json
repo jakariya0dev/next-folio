@@ -2,13 +2,15 @@
   "name": "Jakariya",
   "title": "Full-Stack Developer",
   "description": "I'm a skilled web developer with expertise in MERN stack. I'm passionate about creating efficient and user-friendly website and mobile applications.",
+  "longDescription1": "I am a full-stack web developer specializing in custom website development and modern web application development for startups, entrepreneurs, and businesses worldwide. I build fast, secure, and scalable web solutions using the MERN stack (MongoDB, Express.js, React.js, Node.js), Laravel, and Next.js, ensuring clean architecture, responsive design, and optimized performance.",
+  "longDescription2": "In addition to web development, I provide cross-platform mobile app development with Flutter, delivering high-performance Android and iOS apps that integrate seamlessly with backend systems. My services cover frontend development, backend development, API integration, e-commerce solutions, and SEO-friendly website design, all tailored to meet your specific business objectives.",
+  "longDescription3": "With a proven track record of delivering successful projects for clients in the USA, UK, Canada, Australia, UAE, and Europe, I have worked with both small startups and large enterprises. I focus on writing clean, maintainable code, creating intuitive user interfaces, and delivering conversion-focused, search-optimized digital products. Whether you need a landing page, corporate website, or a complex web and mobile application, I help turn your vision into reality with result-driven development strategies.",
   "image": "https://i.ibb.co/8gsXBcm6/hobby-hub-web.webp",
   "tech": ["React", "Node.js", "MongoDB"],
   "address": "Dhaka, Bangladesh",
   "whatsapp": "+8801762940480",
   "email": "jhalhadi@gmail.com",
   "links": {
-    "resume": "https://drive.google.com/file/d/124wv42-BounlOLvCSzpl_6Xyyes1cH9H/view?usp=sharing",
     "telegram": "https://t.me/jakariya0dev",
     "github": "https://github.com/jakariya0dev",
     "linkedin": "https://www.linkedin.com/in/jakariya0dev/",
@@ -16,6 +18,7 @@
     "instagram": "https://www.instagram.com/jakariya0dev/",
     "facebook": "https://www.facebook.com/jakariya0dev/",
     "youtube": "https://www.youtube.com/@cunningmentor",
-    "fiverrGig": "https://www.fiverr.com/s/gD1dBAL"
+    "fiverrGig": "https://www.fiverr.com/s/gD1dBAL",
+    "resume": "https://drive.google.com/file/d/1JMBQwG3paJ5VjSXhmQkEhbyswLNl3zL_/"
   }
 }

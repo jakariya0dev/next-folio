@@ -37,12 +37,13 @@ export default function Hero() {
             >
               Let’s Talk
             </Link>
+
             <Link
               target="_blank"
-              href={info.links.fiverrGig || "#"}
+              href={info.links.resume || "#"}
               className="inline-block px-6 py-3 mt-4 text-black bg-amber-400 hover:bg-amber-500 rounded-xl font-semibold transition"
             >
-              Hire Me
+              Download Resume
             </Link>
           </div>
         </div>
