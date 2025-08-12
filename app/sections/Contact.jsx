@@ -25,7 +25,7 @@ export default function Contact() {
         icon: "warning",
         title: "Please fill in all the fields",
         showConfirmButton: false,
-        timer: 3000,
+        timer: 3500,
       });
       return;
     }
