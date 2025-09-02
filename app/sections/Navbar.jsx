@@ -3,29 +3,42 @@ import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 
 export default function Navbar() {
-
   const links = (
     <>
       <li>
-        <Link href="#hero">Home</Link>
+        <Link className="text-grey-100" href="#hero">
+          Home
+        </Link>
       </li>
       <li>
-        <Link href="#about">About</Link>
+        <Link className="text-grey-100" href="#about">
+          About
+        </Link>
       </li>
       <li>
-        <Link href="#skills">Skills</Link>
+        <Link className="text-grey-100" href="#skills">
+          Skills
+        </Link>
       </li>
       <li>
-        <Link href="#projects">Projects</Link>
+        <Link className="text-grey-100" href="#projects">
+          Projects
+        </Link>
       </li>
       <li>
-        <Link href="#experience">Experience</Link>
+        <Link className="text-grey-100" href="#experience">
+          Experience
+        </Link>
       </li>
       <li>
-        <Link href="#testimonials">Testimonials</Link>
+        <Link className="text-grey-100" href="#testimonials">
+          Testimonials
+        </Link>
       </li>
       <li>
-        <Link href="#contact">Contact</Link>
+        <Link className="text-grey-100" href="#contact">
+          Contact
+        </Link>
       </li>
     </>
   );

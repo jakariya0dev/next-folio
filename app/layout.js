@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import Script from 'next/script';
-import { GoogleAnalytics } from './components/GoogleAnalytics';
+import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-Z9PJSGRH2D"; // 
 
@@ -50,7 +49,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <head>
         {/* 👇 Google Site Verification */}
         <meta
