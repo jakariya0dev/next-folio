@@ -1,10 +1,9 @@
 import About from "./sections/About";
+import Blogpost from "./sections/BlogSection";
 import Contact from "./sections/Contact";
 import Education from "./sections/Education";
 import Experience from "./sections/Experience";
-import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
-import Navbar from "./sections/Navbar";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Testimonial from "./sections/Testimonial";
@@ -12,10 +11,10 @@ import YouTubeSection from "./sections/YouTubeSection";
 
 export default function Home() {
   return (
-    <div className="">
-      <Navbar />
+    <>
       <Hero />
       <About />
+      <Blogpost/>
       <YouTubeSection />
       <Skills />
       <Projects />
@@ -23,7 +22,6 @@ export default function Home() {
       <Education />
       <Testimonial />
       <Contact />
-      <Footer />
-    </div>
+    </>
   );
 }

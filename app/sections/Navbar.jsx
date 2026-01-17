@@ -6,38 +6,43 @@ export default function Navbar() {
   const links = (
     <>
       <li>
-        <Link className="text-grey-100" href="#hero">
+        <Link className="text-grey-100" href="/#hero">
           Home
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#about">
+        <Link className="text-grey-100" href="/#about">
           About
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#skills">
+        <Link className="text-grey-100" href="/#skills">
           Skills
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#projects">
+        <Link className="text-grey-100" href="/#projects">
           Projects
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#experience">
+        <Link className="text-grey-100" href="/#experience">
           Experience
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#testimonials">
+        <Link className="text-grey-100" href="/#testimonials">
           Testimonials
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="#contact">
+        <Link className="text-grey-100" href="/#contact">
           Contact
+        </Link>
+      </li>
+      <li>
+        <Link className="text-grey-100" href="/blogs">
+          Blogs
         </Link>
       </li>
     </>

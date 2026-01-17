@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from 'next/script';
 import "./globals.css";
+import Navbar from "./sections/Navbar";
+import Footer from "./sections/Footer";
 
 const GA_MEASUREMENT_ID = "G-Z9PJSGRH2D"; // 
 
@@ -74,7 +76,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="">
+            <Navbar />
+            {children}
+            <Footer />  
+          </div>
+        
       </body>
     </html>
   );
