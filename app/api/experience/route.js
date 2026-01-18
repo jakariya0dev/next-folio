@@ -1,4 +1,4 @@
-import experienceInfo from '@/data/experince.json';
+import experienceInfo from '@/data/experience.json';
 
 export async function GET() {
     return Response.json({

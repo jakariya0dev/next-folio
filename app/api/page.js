@@ -49,7 +49,10 @@ export default function ApiDocumentation() {
     <div className="text-gray-200 bg-gray-900 min-h-screen">
       <div className="max-w-6xl mx-auto px-4 py-10">
         <h1 className="text-3xl font-bold mb-6">API Documentation</h1>
+        <p className="mb-4">
+            This API provides access to various resources including basic info, education, experience, projects, and reviews. Each endpoint supports GET and POST methods only. 
 
+        </p>
         <p className="mb-8">
           Base URL:{" "}
           <code className="bg-gray-100 text-gray-600 px-2 py-1 rounded">
