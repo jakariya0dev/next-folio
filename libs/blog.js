@@ -6,7 +6,7 @@ import html from "remark-html";
 
 const postsDirectory = path.join(process.cwd(), "data/articles");
 
-console.log(fs.readdirSync(postsDirectory));
+// console.log(fs.readdirSync(postsDirectory));
 
 
 export function getAllArticles() {
@@ -26,7 +26,7 @@ export function getAllArticles() {
 }
 
 export async function getArticleBySlug(slug) {
-    const fullPath = path.join(postsDirectory, `${slug}.md`);
+    const fullPath = path.join(postsDirectory, `${slug}.md`);   
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
     const matterResult = matter(fileContents);

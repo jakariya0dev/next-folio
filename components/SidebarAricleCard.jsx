@@ -6,7 +6,7 @@ export default function SidebarArticleCard({ article }) {
   return (
     <div className="bg-gray-900 shadow-md rounded-lg overflow-hidden hover:shadow-2xl transition-all">
       <div className="bg-gray-800 p-4 mb-8 rounded">
-        <Link href={`/blogs/${article.slug}`}>
+        <Link href={`/blog/${article.slug}`}>
           <div className="relative w-full h-48 mb-4 rounded overflow-hidden">
             <Image
               src={article.thumbnail}

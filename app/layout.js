@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from 'next/script';
 import "./globals.css";
-import Navbar from "./sections/Navbar";
-import Footer from "./sections/Footer";
+import Navbar from "@/sections/Navbar";
+import Footer from "@/sections/Footer";
 
 const GA_MEASUREMENT_ID = "G-Z9PJSGRH2D"; // 
 

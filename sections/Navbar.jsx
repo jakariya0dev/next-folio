@@ -41,8 +41,8 @@ export default function Navbar() {
         </Link>
       </li>
       <li>
-        <Link className="text-grey-100" href="/blogs">
-          Blogs
+        <Link className="text-grey-100" href="/blog">
+          Blog
         </Link>
       </li>
     </>

@@ -1,7 +1,7 @@
-import UnderlinedText from "../components/UnderlindText";
+import UnderlinedText from "@/components/UnderlindText";
 import Link from "next/link";
 import { getAllArticles } from "@/libs/blog";
-import ArticleCard from "../components/ArticleCard";
+import ArticleCard from "@/components/ArticleCard";
 
 export default function Blogposts() {
   let articles = getAllArticles();
@@ -20,13 +20,6 @@ export default function Blogposts() {
           ))}
         </div>
         <div className="mt-12 flex justify-center">
-          {/* <Link
-            target="_blank"
-            className="text-center btn btn-primary px-6 py-3 rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-all"
-            href="https://www.youtube.com/@cunningmentor"
-          >
-            More Articls
-          </Link> */}
         </div>
       </div>
     </section>

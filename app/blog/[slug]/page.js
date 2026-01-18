@@ -1,10 +1,17 @@
 import Image from "next/image";
-import SidebarArticleCard from "./../../components/SidebarAricleCard";
+import SidebarArticleCard from "@/components/SidebarAricleCard";
 import { getArticleBySlug, getAllArticles } from "@/libs/blog";
 import Link from "next/link";
 
 export default async function BlogPage({ params }) {
-  const { slug } = params;
+
+  const { slug } = await params;
+
+  
+  if (!slug) {
+    throw new Error("Slug is missing");
+  }
+
   const article = await getArticleBySlug(slug);
   const articles = getAllArticles()
     .filter((art) => art.slug !== slug)
@@ -42,7 +49,15 @@ export default async function BlogPage({ params }) {
             {/* article body */}
             <div dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
             <p className="italic">
-              Read this article on <Link href={article.mediumLink} className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">Medium</Link>
+              Read this article on{" "}
+              <Link
+                href={article.mediumLink}
+                className="text-blue-400 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Medium
+              </Link>
             </p>
           </article>
         </div>

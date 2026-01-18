@@ -56,7 +56,7 @@ export default function ArticleCard({ article }) {
             </a>
           </div>
           <Link
-            href={`/blogs/${article.slug}`}
+            href={`/blog/${article.slug}`}
             className="ml-auto text-amber-400 underline underline-offset-6 decoration-2 hover:text-amber-300 transition-all"
           >
             Read More
