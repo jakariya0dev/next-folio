@@ -17,7 +17,19 @@ const nextConfig = {
         hostname: 'miro.medium.com',
         pathname: '/**', // Optional: restrict to a specific path
       },
-      
+      {
+        protocol: 'https',
+        hostname: 'miro.medium.com',
+        pathname: '/**', // Optional: restrict to a specific path
+      },
+      {
+        protocol: 'https',
+        hostname: 'miro.medium.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
     ],
   },
 };

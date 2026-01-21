@@ -47,9 +47,10 @@ export default function Navbar() {
       </li>
     </>
   );
+  
   return (
-    <nav className="bg-gray-800 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto navbar shadow-2xl">
+    <nav className="bg-gray-800 sticky top-0 z-50 shadow-2xl">
+      <div className="max-w-6xl mx-auto navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

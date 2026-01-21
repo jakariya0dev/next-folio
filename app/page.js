@@ -4,6 +4,7 @@ import Contact from "@/sections/Contact";
 import Education from "@/sections/Education";
 import Experience from "@/sections/Experience";
 import Hero from "@/sections/Hero";
+import PhotoSection from "@/sections/PhotoSection";
 import Projects from "@/sections/Projects";
 import Skills from "@/sections/Skills";
 import Testimonial from "@/sections/Testimonial";
@@ -20,6 +21,7 @@ export default function Home() {
       <Projects />
       <Experience />
       <Education />
+      <PhotoSection/>
       <Testimonial />
       <Contact />
     </>

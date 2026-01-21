@@ -3,6 +3,7 @@ import Script from 'next/script';
 import "./globals.css";
 import Navbar from "@/sections/Navbar";
 import Footer from "@/sections/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const GA_MEASUREMENT_ID = "G-Z9PJSGRH2D"; // 
 
@@ -81,7 +82,7 @@ export default function RootLayout({ children }) {
             {children}
             <Footer />  
           </div>
-        
+        <Analytics />
       </body>
     </html>
   );
