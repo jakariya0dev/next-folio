@@ -4,7 +4,7 @@ import React from "react";
 
 export default async function PexelsPhotos() {
 
-  let photos = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/photos`);
+  let photos = await fetch(`/api/photos`);
   photos = await photos.json();
     
 
